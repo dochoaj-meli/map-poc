@@ -1,0 +1,47 @@
+.onlist-item {
+    padding: 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px #ededed;
+    border: 1px solid #ededed;
+    display: flex;
+    background: #fff;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.onlist-item-description {
+    display: flex;
+    flex-direction: column;
+
+    .onlist-item-description__item-attributes__price {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    .onlist-item-description__item-attributes__features {
+        margin-top: 4px;
+
+        span {
+            font-size: 10px;
+            padding-right: 4px;
+            padding-left: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+                border-right: 0;
+            }
+        }
+    }
+}

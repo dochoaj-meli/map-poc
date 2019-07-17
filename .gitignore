@@ -1,0 +1,17 @@
+# Logs
+*.log
+
+# Dependencies
+node_modules
+
+# Trash
+.DS_Store
+.idea
+.vscode
+.fury
+*.iml
+
+# Coverage generated files
+coverage
+dist
+.cache
